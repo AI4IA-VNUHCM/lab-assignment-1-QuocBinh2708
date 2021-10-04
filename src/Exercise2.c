@@ -39,7 +39,7 @@ int main(int argc, char *argv[]) {
 			min = testcase [b];
 		}
 	}
-	printf("max value:%d\n", max);
-	printf("min value:%d\n", min);
+	printf("Max:%d\n", max);
+	printf("Min:%d\n", min);
 	return 0;
 }
