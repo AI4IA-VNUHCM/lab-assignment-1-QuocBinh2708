@@ -16,6 +16,17 @@ int main(int argc, char *argv[]) {
 	//testing variable, applying it to your algorithm for auto-evaluating
 	int testcase = atoi(argv[1]);
 	//Your codes here
-	
+	int i, prime, n;
+    for(n=1; n<testcase; n++)
+    {
+        prime = 0;
+        for(i=1; i<=testcase; i++)
+		{
+			if (n%i == 0)
+				prime++;
+		}
+		if (prime == 2)
+			printf("%d ", n);
+    }
 	return 0;
-}
+} 

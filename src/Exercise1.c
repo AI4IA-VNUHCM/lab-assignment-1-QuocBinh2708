@@ -20,9 +20,9 @@ int main(int argc, char *argv[]) {
 	while (testcase != 0)
 	{	
 		digits = testcase % 10;
-		printf ("%d", digits);
+		printf ("%d ", digits);
 		testcase = (testcase - digits)/10;
 	}	
-	
+
 	return 0;
 }
